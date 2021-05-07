@@ -1,0 +1,267 @@
+<html>
+
+<head>
+    <title>School Website</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar-inverse my_nav_bar">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Radiant Int. School</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#school_name">School Name</a></li>
+                <li><a href="#campus_life">Campus Life</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#new">What's New</a></li>
+                <li><a href="#book">Alumni</a></li>
+                <li><a href="#contactus">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="announcement">
+        <marquee id="mar" onmouseover="this.stop();" onmouseout="this.start();">
+            *Feel free to contact us at : Radiant@gmail.com
+        </marquee>
+        <img id="first" src="banner.jpg">
+    </div>
+
+    <div class="container">
+        <div class="page-header">
+            <h2 class="text-capailize">Campus Life</h2>
+        </div>
+
+        <div class="row">
+            <div class="travel_mainDiv">
+                <img id="small" src="download%20(22).jpg" class="img-responsive">
+                <h4 class="text-capatilize"><kbd>School Assembly Area</kbd></h4>
+                <br>
+                <h5 class="text-succes text-left "> Was established in 2002</h5>
+                <p class="text-muted text-left">This is where most assemblies are held. </p>
+            </div>
+            <div class="travel_mainDiv">
+                <img id="small" src="De_La_Salle_College_of_Saint_Benilde_Library.jpg" class="img-responsive">
+                <h4 class="text-capatilize"><kbd>School Library</kbd></h4>
+                <br>
+                <h5 class="text-succes text-left "> Was established in 2002</h5>
+                <p class="text-muted text-left">The School's Library has amazing storybooks in Hindi and in English.</p>
+            </div>
+            <div class="travel_mainDiv">
+                <img id="small" src="Radiant_International_School_For_Excellence_3666_PlayGround_UA_12%20(1).jpg" class="img-responsive">
+                <h4 class="text-capatilize"><kbd>School Field</kbd></h4>
+                <br>
+                <h5 class="text-succes text-left "> Was established in 2002</h5>
+                <p class="text-muted text-left">This is the field wehere the students get to play sports.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-header" id="achievements">
+        <h2>School Achievements</h2>
+    </div>
+    <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement1">
+        School Sport Function<i class="fa fa-sort-desc"></i>
+    </div>
+    <div id="school_achievement1" class="collapse">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+            <img src="unnamed%20(3).jpg" class="img-responsive img-thumbnail">
+        </div>
+
+        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+            <h5 class="text-success text-left">Won first prize in school 400 meter race</h5>
+            <p>Radiant International School hosted a sports function and this girl got first place in the 400m race. </p>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement1">
+        Inter-School Debate<i class="fa fa-sort-desc"></i>
+    </div>
+    <div id="school_achievement1" class="collapse">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+            <img src="unnamed.jpg" class="img-responsive img-thumbnail">
+        </div>
+
+        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+            <h5 class="text-success text-left">Won first prize in school debate</h5>
+            <p>A debate was held online and this student won first place. </p>
+        </div>
+    </div>
+
+    <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="book">
+        <h2 class="text-capitalize">Alumni</h2>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" data-toggle="modal" data-target="#principal">
+        <img src="prinicple.png" class="img-responsive display">
+        <hr>
+        <p class="text-primary">Mr. Col. Prem Prakash</p>
+    </div>
+
+    <div class="modal fade" id="principal">
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title"> Mr. Col. Prem Prakash</h4>
+                </div>
+
+                <div class="modal-body">
+                    <img src="prinicple.png" class="img-responsive img_modal">
+                    <p class="p_modal">Mr. Col. Prem Prakash is the Principal of Radiant.<br>
+                        <a target="_blank" href="http://www.radiantpatna.com/index.aspx">Learn More</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" data-toggle="modal" data-target="#vice">
+        <img src="vice2.png" class="img-responsive display">
+        <hr>
+        <p class="text-primary">Mrs. Manisha Singh</p>
+    </div>
+
+    <div class="modal fade" id="vice">
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Mrs. Manisha Singh</h4>
+                </div>
+
+                <div class="modal-body">
+                    <img src="vice2.png" class="img-responsive img_modal">
+                    <p class="p_modal">Mrs. Manisha Singh is the Vice Principal of the school. <br>
+                        <a target="_blank" href="http://www.radiantpatna.com/index.aspx">Learn More</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" data-toggle="modal" data-target="#patron">
+        <img src="patron.png" class="img-responsive display">
+        <hr>
+        <p class="text-primary">Mrs. Meena Singh</p>
+    </div>
+
+    <div class="modal fade" id="patron">
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Mrs. Meena Singh</h4>
+                </div>
+
+                <div class="modal-body">
+                    <img src="patron.png" class="img-responsive img_modal">
+                    <p class="p_modal">Mrs. Meena Singh is a Patron. <br>
+                        <a target="_blank" href="http://www.radiantpatna.com/index.aspx">Learn More</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" data-toggle="modal" data-target="#president">
+        <img src="President-1.png" class="img-responsive display">
+        <hr>
+        <p class="text-primary">Mrs. Shalini Singh</p>
+    </div>
+
+    <div class="modal fade" id="president">
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Mrs. Shalini Singh</h4>
+                </div>
+
+                <div class="modal-body">
+                    <img src="President-1.png" class="img-responsive img_modal">
+                    <p class="p_modal">Mrs. Shalini Singh is the Chairman. <br>
+                        <a target="_blank" href="http://www.radiantpatna.com/index.aspx">Learn More</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div>
+        <ul class="list-group" id="new">
+            <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-lg-xs-12 enviornment_li">
+                <h4>New School Library</h4>
+                <hr>
+                <hr>
+                <span>
+                    <img src="De_La_Salle_College_of_Saint_Benilde_Library.jpg" class="img-responsive col-lg-7 col-md-7 col-sm-7 col-xs-12 new">
+
+                    <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12 para">The School built a brand new room for a Library. Here more books can fit and hence help in studies. This new library was installed due to the last library not having much room. Installing a new Library has been a great decision and the new Library is very spacious and can fit many books for reading, studying, learning new things etc.</p>
+                </span>
+            </li>
+            <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-lg-xs-12 enviornment_li">
+                <h4>More Sports Equipments and better Field</h4>
+                <hr>
+                <hr>
+                <img src="61kouDZOxLL._SX355_.jpg" class="img-responsive col-lg-7 col-md-7 col-sm-7 col-xs-12 new">
+                <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12 para">Sports and physical education is important for children so we got more sports equipments for the students to play with and improved the school field. Now students can enjoy their P.E classes and get more exercise and be healthy.</p>
+
+        </ul>
+    </div>
+
+    <div class="container" id="contactus">
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h2 class="text-capatilize">Contact Us</h2>
+        </div>
+
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.121421817416!2d85.04265951488401!3d25.600881183710058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed574ae60231e7%3A0xf8b8d4d10d0c533d!2sRadiant%20International%20School!5e0!3m2!1sen!2sin!4v1611159220785!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+            <div id="details">
+                <img src="prinicple.png" class=" img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+                <h3>Principal Name:</h3>
+                <h4>Col. Prem Prakash</h4>
+            </div>
+            <div class="contact_1">
+                <a href="mailto:principal@gmail.com?Subject:=Hi">
+                    <h5><i class="fa fa-envelope">&nbsp;&nbsp;principal@gmail.com</i></h5>
+                </a>
+            </div>
+        </div>
+    </div>
+</body></html>
